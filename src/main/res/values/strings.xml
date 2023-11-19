@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Alarm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">This is Sample application i.e,Alarm Clock here using the concept of UI layout design and the java programming language
+        to build the logic of the project user of this application may experience the few seconds of lagging alarm receiving
+        due to some sequential executing of the instructions and also its built using the basic concept related to app development.</string>
+    <string name="abouthead">About the Project....</string>
+    <string name="about2">User can set multiple alarms and can turn ON/OFF alarm with toggle Button</string>
+    <string name="about3">User will receive Notification with background music which will be binded with user interaction</string>
+    <string name="about4">Other features such as stop wacth and notes feature where integrated with the application.
+        The application built with help of Android documentation.</string>
+    <string name="developer">App was built by Nishanth for more queries.....</string>
+    <string name="devinfo">insta:nishanth_kshatriya</string>
+    <string name="devinfo2">email:nishanthns571@gmail.com</string>
+    <string name="other">others can free to develop this to the next level</string>
+</resources>

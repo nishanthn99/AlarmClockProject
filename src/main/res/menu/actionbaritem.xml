@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/notes"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_note_add_24"
+        android:tooltipText="add your text here"
+        android:title="Notes"></item>
+    <item android:id="@+id/settings"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_psychology_24"
+        android:tooltipText="Change Settings"
+        android:title="Settings"></item>
+
+</menu>

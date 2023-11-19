@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClockFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Time :"
+        android:textStyle="italic"
+        android:textSize="35dp"
+        android:padding="20dp"
+        android:textColor="#E41F1F"/>
+    <TextClock
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/currenttime"
+        android:textSize="50dp"
+        android:gravity="center"></TextClock>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today's Date :"
+        android:textStyle="italic"
+        android:textSize="35dp"
+        android:padding="20dp"
+        android:textColor="#E41F1F"/>
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/todaydate"
+        android:saveEnabled="true"
+        android:clickable="false"
+        ></CalendarView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:id="@+id/date"></TextView>
+
+</LinearLayout>

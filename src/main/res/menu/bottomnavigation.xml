@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/alarm"
+        android:title="Alarm"
+        android:tooltipText="alarm mode"
+        android:icon="@drawable/alarm"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/systemtime"
+        android:title="Clock"
+        android:tooltipText="current time mode"
+        android:icon="@drawable/baseline_shutter_speed_24"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/stopwatch"
+        android:title="Stopwatch"
+        android:tooltipText="stopwatch mode"
+        android:icon="@drawable/stopwatch"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/about"
+        android:title="About"
+        android:tooltipText="about application"
+        android:icon="@drawable/about"
+        app:showAsAction="always"></item>
+
+</menu>
